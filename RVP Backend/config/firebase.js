@@ -4,7 +4,7 @@ const serviceAccount = require('./firebase-config.json'); // path to your downlo
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://fir-3106a.firebaseio.com", // optional for Firestore
+  databaseURL: "https://-----.firebaseio.com", // optional for Firestore
 });
 
 const db = admin.firestore(); // Firestore reference
